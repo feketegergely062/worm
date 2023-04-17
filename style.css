@@ -1,0 +1,24 @@
+*{
+  margin: 0;
+  padding: 0;
+
+}
+html, body{
+  min-height: 100%;
+  height: 100%;
+  scroll-behavior: none;
+}
+#field{
+  border: 5px solid blue;
+  margin: 2rem auto;
+  position: relative;
+}
+#worm{
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 50px;
+  height: 50px;
+  background: url(./wormhead.png) center center no-repeat;
+  background-size: contain;
+}
